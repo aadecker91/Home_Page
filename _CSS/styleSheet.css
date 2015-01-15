@@ -24,8 +24,9 @@ a:active {
 	text-align: center;
 }
 nav {
-	background-color: rgba(0,0,0,.95);
+	background-color: rgba(0,34,164,1);
 	height: 30px;
+	margin-top: 20px;
 }
 
 /* ~~ Element/tag selectors ~~ */
@@ -37,15 +38,17 @@ h3, h4, h5, h6, p {
 	padding-right: 5px;
 	padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
 	margin: 0;
+	text-align: left;
 }
 a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
 	border: none;
 }
 img {
-	margin: 10px;
 	border-width: thin;
 	border-style: solid;
-	border-color: rgba(0,0,255,1);
+	border-color: rgba(0,34,164,1);
+	margin-left: 10px;
+	margin-right: 10px;
 }
 a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
 	text-decoration: none;
@@ -63,18 +66,6 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 	margin-left: auto;
 	min-height: 100%;
 	position: relative;
-	border-top-width: thin;
-	border-right-width: thin;
-	border-bottom-width: thin;
-	border-left-width: thin;
-	border-top-style: none;
-	border-right-style: solid;
-	border-bottom-style: none;
-	border-left-style: solid;
-	border-top-color: rgba(0,0,255,1);
-	border-right-color: rgba(0,0,255,1);
-	border-bottom-color: rgba(0,0,255,1);
-	border-left-color: rgba(0,0,255,1);
 }
 
 /* ~~the header is not given a width. It will extend the full width of your layout. It contains an image placeholder that should be replaced with your own linked logo~~ */
@@ -84,10 +75,8 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 	background-position: center;
 }
 h1 {
-	font-weight: bold;
-	color: rgba(0,0,255,1);
-	text-shadow: 3px 3px 5px rgba(0,0,0,1);
-	padding-left: 5%;
+	color: rgba(0,34,164,1);
+	padding-left: 20px;
 	margin-bottom: 0px;
 }
 h2 {
@@ -104,7 +93,7 @@ h2 {
 
 /* ~~ The footer ~~ */
 .footer {
-	background-color: rgba(0,0,255,.4);
+	background-color: rgba(0,34,164,.4);
 	text-align: center;
 	clear: both;
 	position: absolute;

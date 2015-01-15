@@ -1,4 +1,4 @@
-#!/usr/local/bin/php
+<!--#!/usr/local/bin/php-->
 
 <html>
 <head>
@@ -10,7 +10,7 @@
 <style type="text/css">
 .content {
 	width: 98%;
-	background-color: rgba(0,0,255,.3);
+	background-color: rgba(0,34,164,.4);
 	margin-left: 1%;
 	border-radius: 5px;
 	padding: 10px 0;
@@ -28,14 +28,23 @@
 
 <div class="container">
   <div class="header">
-	  <img src="_images/Profile_Picture.jpg" alt="Profile" width="156" height="240"/> <p>Adam Decker</p><p>Adam Decker</p><p>Adam Decker</p><p>Adam Decker</p>
-  <?php include("_includes/header.php"); ?>
+ 	<?php include("_includes/header.php"); ?> <br>
+  	
   <!-- end .header --></div>
   <h1>Home Page</h1>
   <div class="content">
-    <p>Welcome to my webpage!</p>
+  	<img src="_images/Profile_Picture.jpg" alt="Profile" width="156" height="240" style="float:left"/>
+    <p>Adam Decker    </p>
+    <p>Computer Information Systems and Engineering Graduate</p>
     <p>&nbsp;</p>
-    <p>This website contains link to some of my projects/UF Club Tennis Website/TA classes/etc.</p>
+    <p>adecker at cise dot ufl dot edu</p>
+    <p>(850) 819-9130</p>
+    <p>&nbsp;</p>
+    <p>TA for: </p>
+    <p>	  COP2800 - Computer Programming Using Java - Prof. Josh Horton</p>
+    <p>COP3530 - Data Structures and Algorithms - Prof. Richard Newman</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
   </div>
   <div id="body"><!-- body div for footer --></div>
   <div class="footer">Adam Decker
