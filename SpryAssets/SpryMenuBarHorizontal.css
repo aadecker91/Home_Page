@@ -95,9 +95,9 @@ ul.MenuBarHorizontal a
 	text-decoration: none;
 	text-align: center;
 	background-color: rgba(0,0,0,0);
-	padding-top: 4px;
+	padding-top: 3px;
 	padding-bottom: 3px;
-	border: thin solid rgba(0,0,255,1);
+	border: thin solid rgba(0,0,255,.9);
 }
 /* Menu items that have mouse over or focus have a blue background and white text */
 ul.MenuBarHorizontal a:hover, ul.MenuBarHorizontal a:focus
