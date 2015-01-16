@@ -13,7 +13,7 @@
 	margin-left: 1%;
 	padding: 10px 0;
 	min-height: 100%;
-	background-color: rgba(0,34,164,.6);
+	background-color: rgba(255,255,255,0.9);
 }
 .header {
 	text-align: left;
@@ -28,10 +28,8 @@
 
 <div class="container">
   <div class="header">
-
  	<?php include("_includes/header.php"); ?>
   <!-- end .header --></div>
-  <h1>Home Page</h1>
   <div class="content">
   	<img src="_images/Profile_Picture.jpg" alt="Profile" width="156" height="240" style="float:left"/>
     <p><strong>Adam Decker</strong></p>
@@ -46,8 +44,11 @@
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
+    <hr width="98%">
     <h2>About Me</h2>
-    <p>I am blah blah</p>
+    <p>I received my Bachelor's from University of Florida in Computer Engineering Software. I grew up in Panama City, Florida and went to Mosley High School. My interests include: Computer security, networking, prorgramming, genetic algorithms, statistics (casino games in particular),video games (mostly PC), and anythings outdoors.  You can find some of my personal projects at the &quot;Projects&quot; link at the top of the page.</p>
+    <p>&nbsp;</p>
+    <p>I have been playing tennis for 14 years, and I'm currently on the UF Club Tennis team. I recently just started rock climbing at the Gainesville Rock Gym. </p>
     <p>&nbsp;</p>
   </div>
   <div id="body"><!-- body div for footer --></div>

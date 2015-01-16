@@ -5,9 +5,6 @@ body, html {
 	padding: 0;
 	height: 100%;
 	background-color: #FFFFFF;
-	color: #000;
-	background-size: cover;
-	background-attachment: fixed;
 }
 
 a:link {
@@ -25,7 +22,6 @@ a:active {
 }
 nav {
 	background-color: rgba(0,34,164,1);
-	margin-top: 20px;
 	height: 30px;
 }
 
@@ -39,6 +35,7 @@ h3, h4, h5, h6, p {
 	padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
 	margin: 0;
 	text-align: left;
+	color: rgba(0,0,0,1);
 }
 a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
 	border: none;
@@ -46,7 +43,7 @@ a img { /* this selector removes the default blue border displayed in some brows
 img {
 	border-width: thin;
 	border-style: solid;
-	border-color: rgba(255,75,0,1);
+	border-color: rgba(0,0,0,1);
 	margin-left: 10px;
 	margin-right: 10px;
 }
@@ -66,6 +63,14 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 	margin-left: auto;
 	min-height: 100%;
 	position: relative;
+	border-right-width: thin;
+	border-left-width: thin;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-right-color: rgba(0,34,164,1);
+	border-left-color: rgba(0,34,164,1);
 }
 
 /* ~~the header is not given a width. It will extend the full width of your layout. It contains an image placeholder that should be replaced with your own linked logo~~ */
@@ -73,9 +78,10 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 	text-align: center;
 	background-color: #FFF;
 	background-position: center;
+	padding-top: 10px;
 }
 h1 {
-	color: rgba(0,34,255,1);
+	color: rgba(0,0,0,1);
 	padding-left: 15px;
 	margin-bottom: 0px;
 }
@@ -83,7 +89,7 @@ h2 {
 	margin: 0px;
 	padding-right: 5px;
 	padding-left: 15px;
-	color: rgba(0,34,200,1);
+	color: rgba(0,34,164,1);
 }
 
 /* ~~ This grouped selector gives the lists in the .content area space ~~ */
@@ -93,7 +99,7 @@ h2 {
 
 /* ~~ The footer ~~ */
 .footer {
-	background-color: rgba(0,34,164,.4);
+	background-color: rgba(0,34,164,.8);
 	text-align: center;
 	clear: both;
 	position: absolute;
