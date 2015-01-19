@@ -1,4 +1,4 @@
-<!--#!/usr/local/bin/php-->
+#!/usr/local/bin/php
 
 <html>
 <head>
@@ -46,9 +46,11 @@
     <p>&nbsp;</p>
     <hr width="98%">
     <h2>About Me</h2>
-    <p>I received my Bachelor's from University of Florida in Computer Engineering Software. I grew up in Panama City, Florida and went to Mosley High School. My interests include: Computer security, networking, prorgramming, genetic algorithms, statistics (casino games in particular),video games (mostly PC), and anythings outdoors.  You can find some of my personal projects at the &quot;Projects&quot; link at the top of the page.</p>
+    <p>I received my Bachelor's from University of Florida in Computer Engineering Software, and I am currently pursuing my Master's Degree in Computer Science at UF. I grew up in Panama City, Florida and went to Mosley High School. My interests include: Computer security, networking, prorgramming, genetic algorithms, statistics (casino games in particular),video games (mostly PC), and anything outdoors.    </p>
     <p>&nbsp;</p>
-    <p>I have been playing tennis for 14 years, and I'm currently on the UF Club Tennis team. I recently just started rock climbing at the Gainesville Rock Gym. </p>
+    <p>I am currently a teaching assistant at the University of Florida. I have been playing tennis for 14 years. I was the UF Club Tennis President for two years, and I'm still a part of the UF Club Tennis team. I recently just started rock climbing at the Gainesville Rock Gym. </p>
+    <p>&nbsp;</p>
+    <p>I made this web page in order to display some of my personal and professional projects that I have worked on throughout my undergraduate studies. I am also going to use it to test some of my ongoing projects.</p>
     <p>&nbsp;</p>
   </div>
   <div id="body"><!-- body div for footer --></div>

@@ -1,4 +1,4 @@
-<!--#!/usr/local/bin/php-->
+#!/usr/local/bin/php
 
 <html>
 <head>
@@ -32,9 +32,13 @@
   <!-- end .header --></div>
   <div class="content">
     <h2>PHPoor Security</h2>
-    <p>PHPoor Security is a vulnerable web application that I created in order to help beginner PHP developers avoid making some common mistakes dealing with security.</p>
+    <p>PHPoor Security is a vulnerable web application that I created in order to help beginner PHP developers avoid making some common mistakes dealing with security. The application assumes a basic knowledge of programming and computer networking. It emphasizes the top 3 vulnerabilities that were on the OWASP (Open Web Application Security Project) Top Ten Project for 2013. This includes Injections, Session Management, and Cross Site Scripting. </p>
     <p>&nbsp;</p>
-    <p>You can download the project <a href="PHPoorSecurity.zip">here</a>.</p>
+    <p>It involves a hands-on approach to solving these security problems, and it also gives the user the ability to fix these problems as well as try new things in a Virtual Machine Sandbox evironment.</p>
+    <p>&nbsp;</p>
+    <p>There is also a report that goes with the application explaining my motivation for the app, the details of the app, and future work. The report can be downloaded <a href="PHPoorSecurityReport.pdf">here</a>.</p>
+    <p>&nbsp;</p>
+    <p>You can download the project <a href="PHPoorSecurity.zip">here</a>.    </p>
     <p>&nbsp;</p>
     <p><strong>Instructions:</strong></p>
     <ol>
@@ -47,15 +51,34 @@
 <li>The PHPoor Security page can be accessed in a browser at sandbox.dev:8080    </li></ol>
     <hr width="98%">
     <h2>Gambling Guide</h2>
-    <p>This is an application for help beginner gamblers.</p>
+    <p>Gambling Guide is an application for people who may be going on a trip to Las Vegas and want to gamble, but they don't want to lose too much money. More often than not, following a few simple rules for a casino game can be the difference between losing 200 dollars and losing 20.</p>
+    <p>&nbsp;</p>
+    <p>The goal of the Gambling Guide is to give the user a few optimized betting strategies that are easy to remember, and can reduce the house edge of a casion game significantly. It will also give the user helpful tips like how much money they should bring to a casino, when to walk away, common mistakes, and some other beginner tips.    </p>
     <p>&nbsp;</p>
     <p>The .apk file will soon be available here.</p>
     <hr width="98%">
+    <h2>Dungeonesque</h2>
+    <p>I was part of a team that created a RPG named Dungeonesque.  It was built using the Starcraft II Map Editor.</p>
+    <p>&nbsp;</p>
+    <p>You can download the game <a href="Dungeonesque.zip">here</a>.</p>
+    <p>&nbsp;</p>
+    <p>Once you've downloaded and unzipped the folder, run Dungeonesque.SC2Map. This will open the SC2 Map Editor, from there  test the map by clicking the test icon in the upper right hand corner. This will run the map in Starcraft II.</p>
+    <p>&nbsp;</p>
+    <p><strong>Note:</strong> Some of the functionality has changed since the games original release. Hopefully, I can soon work on it, or release my own version of Dungeonesque. Until then, though, it will be buggy.</p>
+    <p>&nbsp;</p>
+    <p><strong>Note:</strong> You may have to log in to a Battle.net Account.</p>
+    <hr width="98%">
     <h2>UF Club Tennis</h2>
-    <p>I made all of the UF Club Tennis videos. I will include some below.</p>
+    <p>I made all of the UF Club Tennis videos found on the the UF Club Tennis Channel <a href="https://www.youtube.com/channel/UC9MZrFVPk7ZKTLmpoXc7CpA">here</a>. I have embedded a few below:</p>
+    <p>&nbsp;</p>
+    <iframe width="560" height="315" src="//www.youtube.com/embed/uxpXbkABw3A" frameborder="0" allowfullscreen></iframe>
+    <p>&nbsp;</p>
+    <iframe width="560" height="315" src="//www.youtube.com/embed/jfGrAvKl_Ls" frameborder="0" allowfullscreen></iframe>
+    <p>&nbsp;</p>
+    <iframe width="560" height="315" src="//www.youtube.com/embed/QBhtHm6PWg8" frameborder="0" allowfullscreen></iframe>
     <hr width="98%">
     <h2>Additional Projects</h2>
-    <p>The rest of my projects can be found at the Github Link at the top of this page. I hope soon to unveil a project using genetic algorithms.</p>
+    <p>The rest of my software projects can be found at the Github Link at the top of this page. I hope soon to unveil a project using genetic algorithms.</p>
   </div>
   <div id="body"><!-- body div for footer --></div>
   <div class="footer">Adam Decker
