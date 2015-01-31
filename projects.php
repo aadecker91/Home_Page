@@ -31,6 +31,11 @@
  	<?php include("_includes/header.php"); ?>
   <!-- end .header --></div>
   <div class="content">
+  <h2>e-Studio (Current Project)</h2>
+    <p>e-Studio is a web based entertainment system designed to manage and store information about movies, TV shows, games, and music. The application will contain a wide variety of data including a huge selection of movie genres such as Romance, Thriller, Comedy, Adventure, and Horror; the most popular movie actors/directors; music genres such as Rock, Pop, Metal, Punk, Hard Rock, Death Metal, and Jazz; the most recent song artists and producers; the latest video games for each platform; and much more. By the time of project completion, there should be a total of around 400,00 data entries in the database for this application.</p>
+    <p>&nbsp;</p>
+    <p>When the project is complete, a link will appear at the top of the page.</p>
+    <hr width="98%">
     <h2>PHPoor Security</h2>
     <p>PHPoor Security is a vulnerable web application that I created in order to help beginner PHP developers avoid making some common mistakes dealing with security. The application assumes a basic knowledge of programming and computer networking. It emphasizes the top 3 vulnerabilities that were on the OWASP (Open Web Application Security Project) Top Ten Project for 2013. This includes Injections, Session Management, and Cross Site Scripting. </p>
     <p>&nbsp;</p>
@@ -50,7 +55,12 @@
       <li>Start the VM</li>
 <li>The PHPoor Security page can be accessed in a browser at sandbox.dev:8080    </li></ol>
     <hr width="98%">
-    <h2>Gambling Guide</h2>
+    <h2>ParkUF</h2>
+    <p>ParkUF is an Android application that was made to monitor available parking in University of Florida parking lots. It uses an Arduino microcontroller, two IR sensors, and one ultrasonic sensor to detect when a car enters/leaves a parking lot. When a detection is made, the Arduino sends a put request  to  a server hosted on Amazon Web Services. That server then updates the parking information. The Android application is programmed to send a new GET request every thirty seconds in order to stay up to date with the information held on the server.</p>
+    <p>&nbsp;</p>
+    <p>I worked on the server portion of this application. My code can be found at the GitHub link at the top of this page.</p>
+    <hr width="98%">
+    <h2>Gambling Guide (Current Project)</h2>
     <p>Gambling Guide is an application for people who may be going on a trip to Las Vegas and want to gamble, but they don't want to lose too much money. More often than not, following a few simple rules for a casino game can be the difference between losing 200 dollars and losing 20.</p>
     <p>&nbsp;</p>
     <p>The goal of the Gambling Guide is to give the user a few optimized betting strategies that are easy to remember, and can reduce the house edge of a casion game significantly. It will also give the user helpful tips like how much money they should bring to a casino, when to walk away, common mistakes, and some other beginner tips.    </p>
@@ -76,6 +86,9 @@
     <iframe width="560" height="315" src="//www.youtube.com/embed/jfGrAvKl_Ls" frameborder="0" allowfullscreen></iframe>
     <p>&nbsp;</p>
     <iframe width="560" height="315" src="//www.youtube.com/embed/QBhtHm6PWg8" frameborder="0" allowfullscreen></iframe>
+    <p>&nbsp;</p>
+    <p>I also created this video on my personal channel:</p>
+    <iframe width="560" height="315" src="//www.youtube.com/embed/sNKnmd1bMRw" frameborder="0" allowfullscreen></iframe>
     <hr width="98%">
     <h2>Additional Projects</h2>
     <p>The rest of my software projects can be found at the Github Link at the top of this page. I hope soon to unveil a project using genetic algorithms.</p>
