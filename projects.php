@@ -65,7 +65,7 @@
     <p>&nbsp;</p>
     <p>The goal of the Gambling Guide is to give the user a few optimized betting strategies that are easy to remember, and can reduce the house edge of a casion game significantly. It will also give the user helpful tips like how much money they should bring to a casino, when to walk away, common mistakes, and some other beginner tips.    </p>
     <p>&nbsp;</p>
-    <p>The .apk file will soon be available here.</p>
+    <p>The .apk file will soon be available <a href="GamblingGuide.apk">here</a>.</p>
     <hr width="98%">
     <h2>Dungeonesque</h2>
     <p>I was part of a team that created a RPG named Dungeonesque.  It was built using the Starcraft II Map Editor.</p>
